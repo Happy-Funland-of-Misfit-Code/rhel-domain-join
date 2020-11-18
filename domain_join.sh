@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo Joining domain
-realm join --user=USERNAME CHANGEME.COM
+realm join --user=username changeme.com
 
 echo Renaming default sssd.conf file
 mv /etc/sssd/sssd.conf /etc/sssd/sssd.conf.old
